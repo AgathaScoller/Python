@@ -1,5 +1,2 @@
-algarismo = int(input("Digite seu algarismo: "))
-print("A tabuada do {algarismo}é")
-for i in range (1,11):
-    print(f"{algarismo}x{i}={algarismo*i}")
-
+x = int(input("Número: "))
+for i in range(1, 11): print(f"{x} * {i} = {x*i}")

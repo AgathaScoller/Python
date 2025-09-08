@@ -1,14 +1,4 @@
-numero_inteiro = 10
-numero_real = 2.14
-
-resultado = numero_inteiro + numero_real
-
-print(resultado)
-
-texto_inteiro = str(numero_inteiro)
-texto_real = str(numero_real)
-
-resultado_texto = texto_inteiro + texto_real
-print(resultado_texto)
-
-
+N = int(input("N: "))
+soma = 0
+for i in range(1, N+1): soma += i
+print("Soma:", soma)

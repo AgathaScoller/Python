@@ -1,7 +1,6 @@
-while True: 
-    menu = "Escolha uma opcao: \n1.Ver saldo\n2.Depósito \n3.Sair"
-    print(menu)
-    escolha = input("Digite o número da opcao: ")
-    if escolha == "3":
-        print("\nAté Breve!")
-        break
+while True:
+    op = int(input("\n1-Somar 2-Subtrair 0-Sair: "))
+    if op == 1: a,b = map(float,input("Dois números: ").split()); print("Soma:", a+b)
+    elif op == 2: a,b = map(float,input("Dois números: ").split()); print("Subtração:", a-b)
+    elif op == 0: break
+    else: print("Inválido")

@@ -1,7 +1,3 @@
-nota1 = 10
-nota2 = 7
-nota3 = 8
-
-media = (nota1 + nota2 + nota3)/3
-
-print(media)
+qtd = int(input("Qtd notas: "))
+notas = [float(input("Nota: ")) for _ in range(qtd)]
+print("Média:", sum(notas)/qtd)
