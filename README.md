@@ -1,7 +1,11 @@
-# PYTHON
+# PYTHON 
 
-Repository dedicated to studies, experiments, and implementations in Python.  
-The focus is on mastering language fundamentals, data structures, automation, data analysis, and integration with emerging technologies.
+![Python](https://img.shields.io/badge/Python-3.12+-blue?style=flat-square)
+![Libraries](https://img.shields.io/badge/Libraries-pandas%2C%20numpy%2C%20matplotlib%2C%20scikit--learn%2C%20requests-9cf?style=flat-square)
+![Environment](https://img.shields.io/badge/Environment-VS%20Code%20%7C%20JupyterLab-ff69b4?style=flat-square)
+
+Repository dedicated to **studies, experiments, and implementations in Python**.  
+Focus is on mastering language fundamentals, data structures, automation, data analysis, and integration with emerging technologies.
 
 ---
 
@@ -33,6 +37,6 @@ The focus is on mastering language fundamentals, data structures, automation, da
 
 ## CODE STYLE
 
-Code follows principles of readability, modularity, and efficiency.  
-Comments are used only when necessary to clarify technical decisions.  
-Naming conventions comply with PEP 8 standards.  
+- Code follows principles of **readability, modularity, and efficiency**  
+- Comments are used only when necessary to clarify technical decisions  
+- Naming conventions comply with **PEP 8** standards
